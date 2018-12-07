@@ -6,11 +6,9 @@
 
 - Most of my code is for use with [Discord](https://discordapp.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 
 
-- Any code/file listed as Personal etc in the folder's readme.md and inside the code Is **NOT** available for redistribution and will probably be unfinished/bugged. Anyone found to be using these pieces of code will be confronted!
+- Any code/file listed as Personal etc in the folder's readme.md and inside the code Is **NOT** available for redistribution and will probably be unfinished/bugged. 
 
 - Under **no circumstances** may you redistribute under any other name or edit my work without permission. If you do want to work on them, that's great! Just please let me know! 
-
-Follow me on [Twitter](https://twitter.com/notfluted) @NotFluted or add me on Discord Fluted#7531 for information and updates.
 
 Any unusual happenings, more like **bugs**, are to be reported in the **Issues** section of this repo, thank you! :) 
 

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+ 
+<!--
+                         theme #4 by fluted.tumblr.com
+                         i do not help with customising
+                         if there is a technical issue
+                         send me a message!!
+-->  
+ 
+<head>
+ 
+<title>{Title}</title>
+<link rel="shortcut icon" href="{Favicon}"/>
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+ 
+<meta name="image:BgImg" content=""/>
+<meta name="image:SidebarImg" content=""/>
+ 
+<meta name="color:Bg" content="#ffffff">
+<meta name="color:AnimatedBg1" content="">
+<meta name="color:AnimatedBg2" content="">
+<meta name="color:AnimatedBg3" content="">
+<meta name="color:Text" content="#4f4f4f">
+<meta name="color:Link" content="#767676">
+<meta name="color:LinkHover" content="#000000">
+<meta name="color:Blockquote" content="">
+<meta name="color:Scrollbar" content="#ffffff">
+<meta name="color:ScrollbarBorder" content="#000000">
+<meta name="color:ScrollbarTrack" content="#ffffff">
+<meta name="color:SelectionBg" content="">
+<meta name="color:SelectionText" content="">
+<meta name="color:TooltipBg" content="#000000">
+<meta name="color:TooltipText" content="#ffffff">
+ 
+<meta name="if:InfiniteScroll" content="1">
+<meta name="if:AnimatedBg" content="">
+<meta name="if:Rounded" content="">
+<meta name="if:UnderlinedLinks" content="1">
+<meta name="if:BgCover" content="">
+<meta name="if:HideCaptions" content="">
+<meta name="if:HideTags" content="">
+<meta name="if:CenterFooterText" content="1">
+<meta name="if:AltFooter" content="">
+<meta name="if:SmallCursor1" content="">
+<meta name="if:SmallCursor2" content="">
+<meta name="if:PlainScrollbar" content="">
+<meta name="if:RainbowLinkHover" content="">
+<meta name="if:WhiteAudioPlayer" content="">
+<meta name="if:BlackAudioPlayer" content="">
+<meta name="if:Link1" content="">
+<meta name="if:Link2" content="">
+<meta name="if:Link3" content="">
+<meta name="if:Link4" content="">
+ 
+<meta name="text:SidebarWidth" content="120">
+<meta name="text:SidebarTop" content="120">
+<meta name="text:SidebarImgHover" content="">
+<meta name="text:Link1Name" content="">
+<meta name="text:Link1URL" content="/">
+<meta name="text:Link2Name" content="">
+<meta name="text:Link2URL" content="/">
+<meta name="text:Link3Name" content="">
+<meta name="text:Link3URL" content="/">
+<meta name="text:Link4Name" content="">
+<meta name="text:Link4URL" content="/">
+ 
+<meta name="select:PostSize" content="250" title="250px">
+<meta name="select:PostSize" content="300" title="300px">
+<meta name="select:PostSize" content="350" title="350px">
+<meta name="select:PostSize" content="400" title="400px">
+<meta name="select:PostSize" content="500" title="500px">
+<meta name="select:Font" content="dotum" title="Dotum">
+<meta name="select:Font" content="ms pgothic" title="Ms PGothic">
+<meta name="select:Font" content="arial" title="Arial">
+<meta name="select:Font" content="tahoma" title="Tahoma">
+<meta name="select:Font" content="verdana" title="Verdana">
+<meta name="select:Font" content="consolas" title="Consolas">
+<meta name="select:Font" content="courier" title="Courier">
+<meta name="select:FontSize" content="12" title="12px">
+<meta name="select:FontSize" content="11" title="11px">
+<meta name="select:FontSize" content="10" title="10px">
+ 
+{block:ifInfiniteScroll}
+<script type="text/javascript" src="https://yourjavascript.com/21212225154/esz.js"></script>
+{/block:ifInfiniteScroll}
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+ 
+{block:ifRainbowLinkHover}
+<script type='text/javascript'>
+//<![CDATA[
+var rate = 30;
+if (document.getElementById)
+window.onerror=new Function("return true")
+ 
+var objActive; // The object which event occured in
+var act = 0; // Flag during the action
+var elmH = 0; // Hue
+var elmS = 128; // Saturation
+var elmV = 255; // Value
+var clrOrg; // A color before the change
+var TimerID; // Timer ID
+if (document.all) {
+document.onmouseover = doRainbowAnchor;
+document.onmouseout = stopRainbowAnchor;
+}
+else if (document.getElementById) {
+document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT);
+document.onmouseover = Mozilla_doRainbowAnchor;
+document.onmouseout = Mozilla_stopRainbowAnchor;
+}
+function doRainbow(obj)
+{
+if (act == 0) {
+act = 1;
+if (obj)
+objActive = obj;
+else
+objActive = event.srcElement;
+clrOrg = objActive.style.color;
+TimerID = setInterval("ChangeColor()",100);
+}
+}
+function stopRainbow()
+{
+if (act) {
+objActive.style.color = clrOrg;
+clearInterval(TimerID);
+act = 0;
+}
+}
+function doRainbowAnchor()
+{
+if (act == 0) {
+var obj = event.srcElement;
+while (obj.tagName != 'A' && obj.tagName != 'BODY') {
+obj = obj.parentElement;
+if (obj.tagName == 'A' || obj.tagName == 'BODY')
+break;
+}
+if (obj.tagName == 'A' && obj.href != '') {
+objActive = obj;
+act = 1;
+clrOrg = objActive.style.color;
+TimerID = setInterval("ChangeColor()",100);
+}
+}
+}
+function stopRainbowAnchor()
+{
+if (act) {
+if (objActive.tagName == 'A') {
+objActive.style.color = clrOrg;
+clearInterval(TimerID);
+act = 0;
+}
+}
+}
+function Mozilla_doRainbowAnchor(e)
+{
+if (act == 0) {
+obj = e.target;
+while (obj.nodeName != 'A' && obj.nodeName != 'BODY') {
+obj = obj.parentNode;
+if (obj.nodeName == 'A' || obj.nodeName == 'BODY')
+break;
+}
+if (obj.nodeName == 'A' && obj.href != '') {
+objActive = obj;
+act = 1;
+clrOrg = obj.style.color;
+TimerID = setInterval("ChangeColor()",100);
+}
+}
+}
+function Mozilla_stopRainbowAnchor(e)
+{
+if (act) {
+if (objActive.nodeName == 'A') {
+objActive.style.color = clrOrg;
+clearInterval(TimerID);
+act = 0;
+}
+}
+}
+function ChangeColor()
+{
+objActive.style.color = makeColor();
+}
+function makeColor()
+{
+// Don't you think Color Gamut to look like Rainbow?
+// HSVtoRGB
+if (elmS == 0) {
+elmR = elmV; elmG = elmV; elmB = elmV;
+}
+else {
+t1 = elmV;
+t2 = (255 - elmS) * elmV / 255;
+t3 = elmH % 60;
+t3 = (t1 - t2) * t3 / 60;
+if (elmH < 60) {
+elmR = t1; elmB = t2; elmG = t2 + t3;
+}
+else if (elmH < 120) {
+elmG = t1; elmB = t2; elmR = t1 - t3;
+}
+else if (elmH < 180) {
+elmG = t1; elmR = t2; elmB = t2 + t3;
+}
+else if (elmH < 240) {
+elmB = t1; elmR = t2; elmG = t1 - t3;
+}
+else if (elmH < 300) {
+elmB = t1; elmG = t2; elmR = t2 + t3;
+}
+else if (elmH < 360) {
+elmR = t1; elmG = t2; elmB = t1 - t3;
+}
+else {
+elmR = 0; elmG = 0; elmB = 0;
+}
+}
+elmR = Math.floor(elmR).toString(16);
+elmG = Math.floor(elmG).toString(16);
+elmB = Math.floor(elmB).toString(16);
+if (elmR.length == 1) elmR = "0" + elmR;
+if (elmG.length == 1) elmG = "0" + elmG;
+if (elmB.length == 1) elmB = "0" + elmB
+elmH = elmH + rate;
+if (elmH >= 360)
+elmH = 0;
+return '#' + elmR + elmG + elmB;
+}
+//]]>
+</script>
+{/block:ifRainbowLinkHover}
+ 
+<style type="text/css">
+ 
+tooltip {
+display: inline;
+position: relative;
+}
+#s-m-t-tooltip {
+max-width: 300px;
+margin: 22px 7px -2px 22px;
+padding: 5px;
+background-color: {color:TooltipBg};
+color: {color:TooltipText};
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+z-index: 999999999999999999999999999999999999;
+{block:ifRounded}
+border-radius: 10px;
+{/block:ifRounded}
+}
+ 
+{block:ifNotPlainScrollbar}
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+::-webkit-scrollbar-thumb {
+background-color: {color:Scrollbar};
+border: 1px solid {color:ScrollbarBorder};
+{block:ifRounded}
+border-radius: 10px;
+{/block:ifRounded}
+}
+::-webkit-scrollbar-track {
+background-color: {color:ScrollbarTrack};
+}
+{/block:ifNotPlainScrollbar}
+ 
+::selection {
+background-color: {color:SelectionBg};
+color: {color:SelectionText};
+}
+::-moz-selection{
+background-color: {color:SelectionBg};
+color: {color:SelectionText};
+}
+ 
+a {
+{block:ifNotUnderlinedLinks}
+text-decoration: none;
+{/block:ifNotUnderlinedLinks}
+color: {color:Link};
+-webkit-transition: 0.3s ease-in-out;
+-moz-transition: 0.3s ease-in-out;
+-o-transition: 0.3s ease-in-out;
+transition: 0.3s ease-in-out;
+}
+ 
+a:hover {
+color: {color:LinkHover};
+cursor: help;
+-webkit-transition: 0.3s ease-in-out;
+-moz-transition: 0.3s ease-in-out;
+-o-transition: 0.3s ease-in-out;
+transition: 0.3s ease-in-out;
+}
+ 
+blockquote {
+margin: 10px;
+padding-left: 10px;
+border-left: 1px solid {color:Blockquote};
+}
+ 
+big {
+font-size: 14px;
+}
+small {
+font-size: 11px;
+}
+ 
+body {
+background-image: url({image:BgImg});
+background-attachment: fixed;
+background-size: repeat;
+{block:ifBgCover}
+background-size: cover;
+{/block:ifBgCover}
+background-color: {color:Bg};  
+{block:ifAnimatedBg}
+background: linear-gradient(3deg, {color:AnimatedBg3}, {color:AnimatedBg2}, {color:AnimatedBg1});
+background-size: 800% 800%;
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+{/block:ifAnimatedBg}
+color: {color:Text};
+font-family: {select:Font};
+font-size: {select:FontSize}px;
+}
+{block:ifAnimatedBg}
+@-webkit-keyframes AnimationName {
+0%{background-position:50% 0%}
+50%{background-position:50% 100%}
+100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+0%{background-position:50% 0%}
+50%{background-position:50% 100%}
+100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+0%{background-position:50% 0%}
+50%{background-position:50% 100%}
+100%{background-position:50% 0%}
+}
+{/block:ifAnimatedBg}
+
+a, a:hover, body {
+{block:ifSmallCursor1}
+cursor: url(https://31.media.tumblr.com/tumblr_lqs4idHqTZ1qfoi4t.png), auto;
+{/block:ifSmallCursor1}
+{block:ifSmallCursor2}
+cursor: url(https://33.media.tumblr.com/tumblr_lqs4qdUu8n1qfoi4t.png), auto;
+{/block:ifSmallCursor2}
+}
+ 
+p {
+margin: 0 0 10px 0;
+}
+ 
+pre {
+font-family: {select:Font};
+}
+ 
+img {
+max-width: 100%;
+{block:ifRounded}
+border-radius: 10px;
+{/block:ifRounded}
+border: none;
+outline: none;
+}
+ 
+#t {
+margin-bottom: 10px;
+font-size: 18px;
+text-align: center;
+}
+ 
+#cap {
+margin-top: 5px;
+}
+#cap img {
+height: 100%;
+}
+ 
+#stuff {
+margin-bottom: 10px;
+}
+ 
+#con {
+width: 350px;
+margin: 50px auto;
+margin-top: 75px;
+}
+ 
+#posts {
+width: {select:PostSize}px;
+max-width: {select:PostSize}px;
+margin-top: 20px;
+margin-bottom: 60px;
+padding: 20px;
+}
+ 
+#footer {
+margin: 0;
+margin-top: -5px;
+margin-bottom: -10px;
+padding: 5px;
+text-align: left;
+{block:ifCenterFooterText}
+text-align: center;
+{/block:ifCenterFooterText}
+font-size: {select:FontSize}px;
+}
+ 
+#tags {
+letter-spacing: none;
+word-spacing: 1px;
+}
+ 
+#sidebar {
+position: fixed;
+width: {text:SidebarWidth}px;
+padding: 10px;
+margin-top: {text:SidebarTop}px;
+margin-left: -240px;
+}
+ 
+#desc {
+margin-top: 5px;
+text-align: center;
+}
+ 
+#navcon {
+margin-top: -5px;
+}
+ 
+#navtext {
+color: {color:Link};
+margin-top: 5px;
+padding: 5px;
+text-align: center;
+line-height: 15px;
+}
+ 
+#pagination {
+text-align: center;
+margin-top: 8px;
+}
+ 
+#photoset {
+margin-top: -10px;
+}
+#photoset iframe {
+{block:ifRounded}
+border-radius: 10px;
+{/block:ifRounded}
+}
+ 
+#quote {
+font-size: 18px;
+text-align: center;
+margin-bottom: 10px;
+margin-top: -10px;
+}
+#source {
+margin-bottom: 10px;
+}
+ 
+#link {
+font-size: 18px;
+text-align: center;
+margin-bottom: 10px;
+margin-top: -10px;
+}
+ 
+#chat {
+margin-top: -10px;
+line-height: 20px;
+}
+ 
+#ask {
+margin-top: -10px;
+margin-bottom: 10px;
+}
+ 
+#acon {
+height: 40px;
+{block:ifRounded}
+border-radius: 10px;
+{/block:ifRounded}
+background-color: #e4e4e4;
+{block:ifWhiteAudioPlayer}
+background-color: white;
+{/block:ifWhiteAudioPlayer}
+{block:ifBlackAudioPlayer}
+background-color: black;
+{/block:ifBlackAudioPlayer}
+}
+#ap {
+position: absolute;
+background-color: #e4e4e4;
+{block:ifWhiteAudioPlayer}
+background-color: white;
+{/block:ifWhiteAudioPlayer}
+{block:ifBlackAudioPlayer}
+background-color: black;
+{/block:ifBlackAudioPlayer}
+overflow: hidden;
+width: 30px;
+height: 30px;
+margin-top: 7px;
+margin-left: 10px;
+}
+#ai {
+position: absolute;
+background-color: #e4e4e4;
+{block:ifWhiteAudioPlayer}
+background-color: white;
+{/block:ifWhiteAudioPlayer}
+{block:ifBlackAudioPlayer}
+background-color: black;
+{/block:ifBlackAudioPlayer}
+color: {color:Text};
+{block:ifBlackAudioPlayer}
+color: white;
+{/block:ifBlackAudioPlayer}
+font-size: {select:FontSize}px;
+margin-top: -32px;
+margin-left: 45px;
+}
+ 
+#vid {
+max-width: {select:PostSize}px;
+max-height: {select:PostSize}px;
+}
+#vidcon {
+position: center;
+overflow: hidden;
+}
+#vidcon iframe, #vidcon object, #vidcon embed {
+position: center;
+max-width: {select:PostSize}px;
+max-height: {select:PostSize}px;
+{block:ifRounded}
+border-radius: 10px;
+{/block:ifRounded}
+}
+ 
+ol.notes {
+padding: 0;
+list-style-type: none;
+max-height: 280px;
+overflow: auto;
+}
+ol.notes li.note {
+padding: 5px;
+padding: right: 5px;
+}
+ol.notes li.note img.avatar {
+width: 16px;
+height: 16px;
+vertical-align: -4px;
+margin-right: 10px;
+}
+ 
+#c {
+position: fixed;
+bottom: 12px;
+right: 12px;
+z-index: 99;
+font-size: 12px;
+}
+ 
+</style>
+</head>
+ 
+<body>
+ 
+<div id="con">
+ 
+<div id="sidebar">
+<center><a href="/" title="{text:SidebarImgHover}"><img src="{image:SidebarImg}" <div style=""></a></center>
+ 
+<div id="desc">
+{block:Description}
+<p>{Description}
+</p>
+{/block:Description}
+</div>
+ 
+<div id="navcon">
+<div id="navtext">
+{block:ifLink1}
+<a href="{text:Link1URL}">{text:Link1Name}</a><br>
+{/block:ifLink1}
+{block:ifLink2}
+<a href="{text:Link2URL}">{text:Link2Name}</a><br>
+{/block:ifLink2}
+{block:ifLink3}
+<a href="{text:Link3URL}">{text:Link3Name}</a><br>
+{/block:ifLink3}
+{block:ifLink4}
+<a href="{text:Link4URL}">{text:Link4Name}</a>
+{/block:ifLink4}
+</div>
+</div>
+ 
+{block:ifNotInfiniteScroll}
+{block:Pagination}
+<div id="pagination">
+{block:PreviousPage}
+<a href="{PreviousPage}">←</a>
+{/block:PreviousPage}
+{block:NextPage}
+<a href="{NextPage}">→</a>
+{/block:NextPage}
+</div>
+{/block:Pagination}
+{/block:ifNotInfiniteScroll}
+ 
+</div>
+ 
+<div class = "autopagerize_page_element" >
+ 
+{block:Posts}
+ 
+<!-- {block:NoRebloggedFrom}
+{block:RebloggedFrom}{ReblogParentName}{/block:RebloggedFrom}
+{/block:NoRebloggedFrom} -->
+{block:ContentSource}<!-- {SourceURL}
+{block:SourceLogo}<img src="{BlackLogoURL}"width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
+ 
+<div id="posts">
+ 
+{block:Text}
+{block:Title}
+<div id="t">
+{Title}
+</div>
+{/block:Title}
+{Body}
+{/block:Text}
+ 
+ 
+<div id="stuff">
+{block:Photo}
+<center>
+{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{LinkCloseTag}
+</center>
+{block:ifNotHideCaptions}
+{block:Caption}
+<div id="cap">
+{Caption}
+</div>
+{/block:Caption}
+{/block:ifNotHideCaptions}
+{/block:Photo}
+</div>
+ 
+<div id="stuff">
+{block:Photoset}
+<div id="photoset">
+{Photoset}
+</div>
+{block:ifNotHideCaptions}
+{block:Caption}
+<div id="cap">
+{Caption}
+</div>
+{/block:Caption}
+{/block:ifNotHideCaptions}
+{/block:Photoset}
+</div>
+ 
+{block:Quote}
+<div id="quote">
+"{Quote}"
+</div>
+<div align="left">
+{block:Source}
+<div id="source">
+-{Source}
+</div>
+{/block:Source}
+</div>
+{/block:Quote}
+ 
+ 
+<div id="stuff">
+{block:Video}
+<div id="vid">
+<div id="vidcon">
+{Video-500}
+</div>
+</div>
+{block:ifNotHideCaptions}
+{block:Caption}
+<div id="cap">
+{Caption}
+</div>
+{/block:Caption}
+{/block:ifNotHideCaptions}
+{/block:Video}
+</div>
+ 
+ 
+{block:Link}
+<div id="link">
+<a href="{URL}" class="link" {Target}>{Name}</a></div>
+{block:Description}
+<div id="cap">
+{Description}
+</div>
+{/block:Description}
+{/block:Link}
+ 
+ 
+{block:Chat}
+{block:Title}
+<div id="t">
+{Title}
+</div>
+{/block:Title}
+<div id="chat">
+{block:Lines}
+<div class="{Alt} user_{UserNumber}">
+{block:Label}
+<b>{Label}</b>
+{/block:Label}
+{Line}
+</div>
+{/block:Lines}
+</div>
+{/block:Chat}
+ 
+<div id="stuff">
+{block:Audio}
+<div id="acon">
+<div id="ap">
+{block:ifNotWhiteAudioPlayer}
+{block:ifNotBlackAudioPlayer}
+{AudioPlayerGrey}
+{/block:ifNotBlackAudioPlayer}
+{/block:ifNotWhiteAudioPlayer}
+{block:ifWhiteAudioPlayer}
+{AudioPlayerWhite}
+{/block:ifWhiteAudioPlayer}
+{block:ifBlackAudioPlayer}
+{AudioPlayerBlack}
+{/block:ifBlackAudioPlayer}
+</div>
+</div>
+<div id="ai">
+{block:TrackName}
+{TrackName}
+{/block:TrackName}
+<br>
+{block:Artist}
+{Artist}
+{/block:Artist}
+</div>
+{block:Caption}
+<div id="cap">
+{Caption}
+</div>
+{/block:Caption}
+{/block:Audio}
+</div>
+ 
+{block:Answer}
+<div id="ask">
+{Asker} said: <b>{Question}</b>
+</div>
+<div id="cap">
+{Answer}
+</div>
+{/block:Answer}
+ 
+{block:Date}
+<div id="footer">
+{block:IndexPage}
+{block:ifNotAltFooter}
+<a href="{Permalink}" title="{TimeAgo}"><b>({DayofYear}/365)</b></a>
+<a href="{Permalink}" title="Permalink">{block:NoteCount}<b>{NoteCount}%</b>{/block:NoteCount}</a>
+{/block:ifNotAltFooter}
+{block:ifAltFooter}
+<a href="{Permalink}" title="{TimeAgo}"><b>{24HourWithZero}:{Minutes}:{Seconds}</b></a>
+<a href="{Permalink}" title="Permalink">{block:NoteCount}<b>(+{NoteCount})</b>{/block:NoteCount}</a>
+{/block:ifAltFooter}
+{/block:IndexPage}
+{block:PermalinkPage}
+<b><a href="{ReblogParentURL}">{NoteCountWithLabel}{block:RebloggedFrom} via {ReblogParentName}{/block:RebloggedFrom}</a></b>
+<br>
+{/block:PermalinkPage}
+{block:ifNotHideTags}
+<div id="tags">
+{block:HasTags}
+{block:Tags}
+<a href="{TagURL}" title="#{Tag}">{Tag}</a>
+{/block:Tags}
+{/block:HasTags}
+</div>
+{/block:ifNotHideTags}
+</div>
+{/block:Date}
+ 
+{block:PermalinkPage}
+{block:PostNotes}
+{PostNotes}
+{/block:PostNotes}
+{/block:PermalinkPage}
+ 
+</div>
+ 
+{/block:Posts}
+ 
+</div>
+ 
+</div>
+ 
+<div id="c">
+<a href="https://fluted.tumblr.com/" title="Credit">♡</a>
+</div>
+ 
+</body>
+</html>

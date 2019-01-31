@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<head>
+
+
+
+<!--  
+                         theme #3 by fluted.tumblr.com
+                         i do not help with customising
+                         if there is a technical issue
+                         send me a message!!
+						 https://imgur.com/a/sgNrL
+						 gif:https://imgur.com/a/e3OMP
+                
+-->
+
+
+<title>{Title}</title>
+
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+
+<!--Default Variables-->
+
+<meta name="color:Background" content="#ffffff"/>"
+<meta name="image:Background Image" content=""/>
+<meta name="color:Text" content="#aaaaaa"/>
+<meta name="color:Link" content="#000000"/>
+
+<meta name="image:Sidebar Image" content=""/>
+<meta name="if:hidecaptions" content="1" />
+
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 1 URL" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 2 URL" content="" />
+<meta name="text:Link 3" content="" />
+<meta name="text:Link 3 URL" content="" />
+
+<meta name="text:Open Links" content="open">
+<meta name="text:Close Links" content="close">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:30,
+tip_fade_speed:300,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+<!--CSS customization here. -->
+
+<style type="text/css">
+
+
+/*tooltip*/
+#s-m-t-tooltip {
+position:absolute;
+margin-top: 15px;
+z-index:9999;
+background:{color:background};}
+
+/*body*/
+body {
+background:{color:background}; 
+background-image:url({image:Background Image});
+background-repeat:repeat;
+background-attachment:fixed;
+background-position:left top;
+color:{color:text};
+font-family:arial;
+font-size:10px;
+text-align:justify;
+margin:0;
+line-height:16px;}
+
+a {
+color:{color:link};
+text-decoration:none;}
+
+a:hover {
+text-decoration:underline;}
+
+blockquote {
+padding:5px 0 5px 30px;
+border-left:1px solid {color:text};
+margin-left:30px;}
+
+img {
+opacity:1;
+border:none;
+text-decoration:none}
+
+small {
+font-size:9px;}
+
+big {
+font-size:12px;}
+
+#title {
+font-size:12px;
+line-height:18px;
+font-weight:bold;
+margin-bottom:10px;
+text-transform:uppercase;
+text-align:left;}
+
+/*sidebar*/
+#sidebar {
+text-align:center;
+position:fixed;
+margin-left:-210px;
+margin-top:135px;
+width:200px;}
+
+#sidebarim {
+margin-top:10px}
+
+#sidebarim img {
+width:200px}
+
+#blogt {
+font-size:16px;
+font-weight:bold;
+text-align:left;}
+
+#links {
+line-height:70%px;
+text-transform:lowercase;}
+
+#links a {
+padding:0px;
+margin-top:px;
+display:inline-block;
+font-weight:;}
+
+#description {
+margin-top:5px;
+margin-bottom:8px;
+}
+
+/*pagination*/
+#pagination {
+margin:40px 0;
+text-transform:lowercase;
+font-weight:italic;
+text-align:center;}
+
+/*posts*/
+#con {
+left:50%;
+margin-left:-210px;
+position:absolute;}
+
+#entries {
+margin-top:50px;
+width:400px;
+margin-left:60px;}
+
+#posts {
+width:400px;
+{block:IndexPage}
+margin-bottom:75px;
+{/block:IndexPage}
+{block:PermalinkPage}
+margin-bottom:50px;
+{/block:PermalinkPage}}
+
+#posts img {
+max-width:400px;}
+
+#posts img, #posts li, #posts blockquote {
+max-width: 100%;}
+
+.caption {
+width:100%;}
+
+/*quote*/
+#titlequote{
+text-align:left;
+font-size:14px;
+line-height:18px;
+font-weight:bold;
+text-transform:lowercase;}
+
+#source {
+margin-top:15px;
+margin-left:15px;}
+
+/*asks*/
+.q {
+margin-bottom:10px;
+text-transform:lowercase;}
+
+.as {
+font-weight:bold;
+text-transform:lowercase;}
+
+.a {
+margin-top:10px;
+text-transform:lowercase;}
+
+/*chat*/
+.chat ol {
+padding:0;
+list-style:none;}
+
+.line {
+padding:5px 0;}
+
+.label {
+font-weight:bold;}
+
+/*permalinks & tags*/
+#permalink {
+margin-top:5px;
+font-size:10px;
+text-align:center;
+text-transform:lowercase;}
+
+#permalink a {
+margin-right:10px;}
+
+.tags {
+word-break:break-all;
+font-size:10px;}
+
+.pagenotes {
+{block:IndexPage}
+display: none!important;
+{/block:IndexPage}
+width:400px;
+text-align:left;}
+
+.pagenotes img {
+display:none!important;}
+
+.pagenotes li {
+list-style-type:none;
+padding:5px 0px;
+text-align:left;
+margin:0 0 0 -40px;}
+
+/*theme credit*/
+#cred {
+font-size:13px;
+bottom:30px;
+font-style:none;
+right:35px;
+position:fixed;}
+
+/*code to resize photos in captions*/
+.photocaption img {
+max-width:315px!important;}
+
+{CustomCSS}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="cred"><a href="https://www.sadtack.tumblr.com">♚</a></div>
+
+<div id="con">
+<div id="sidebar">
+<div id="sidebarim">
+
+<img src="{image:Sidebar Image}"></div>
+
+<div id="description">{Description}</div>
+
+<div id="links">
+
+<center>
+<div style="margin-top: 5px; margin-left: 0px; margin-bottom:0px;
+ font-size: 10px; line-height:70%px; color:{color:link}; text-decoration:none;"><div style=""><button type="button" class="button" " onclick="this.parentNode.parentNode.childNodes[1].style.display = ''; this.parentNode.style.display = 'none'; return false;" style="">{text:open links}</button></div><div style="display: none;"><div><button type="button" class="button" onclick="this.parentNode.parentNode.parentNode.childNodes[0].style.display = ''; this.parentNode.parentNode.style.display = 'none'; return false;">{text:close links}</button></div>
+ 
+<a href="/">home</a><br>
+<a href="/ask">message</a><br>
+<a href="/archive">archive</a><br>
+{block:ifLink1}<a href="{text:Link 1 URL}">{text:Link 1}</a>{/block:ifLink1}<br>
+{block:ifLink2}<a href="{text:Link 2 URL}" >{text:Link 2}</a>{/block:ifLink2}<br>
+{block:ifLink3}<a href="{text:Link 3 URL}">{text:Link 3}</a> {/block:ifLink3}
+</div>
+</center>
+</div>
+</div>
+
+<div id="entries">
+
+{block:Posts}
+
+<div id="posts">
+
+
+{block:Quote}
+<div id="titlequote">“{Quote}”</div>
+{block:Source}<div id="source">&mdash; {Source}</div>{/block:Source}
+{/block:Quote}
+
+{block:Text}
+{block:Title}
+<div id="titlequote">{Title}</div>{/block:Title}
+<div class="photocaption">{Body}</div>
+{/block:Text}
+
+{block:Link}
+<div id="titlequote"><a href="{URL}">{Name} &rarr;</a></div>{block:Description}{Description}{/block:Description}
+{/block:Link}
+
+{block:Chat}
+{block:Title}
+<h1>{Title}</h1>
+{/block:Title}
+
+<div class="chat">
+<ol>{block:Lines}
+<li class="line {Alt}">
+{block:Label}
+<span class="label">
+{Label}</span>
+{/block:Label}{Line}</li>
+{/block:Lines}
+</ol></div>
+{/block:Chat}
+
+{block:Photo}<center>{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" width=400px></a>{LinkCloseTag}</center>{block:ifnothidecaptions}<div class="caption">{Caption}</div>{/block:ifnothidecaptions}{block:ifhidecaptions}{block:permalinkpage}{Caption}{/block:permalinkpage}{/block:ifhidecaptions}{/block:Photo}
+
+{block:Photoset}<center>{Photoset-400}</center>{block:ifnothidecaptions}{Caption}{/block:ifnothidecaptions}{block:ifhidecaptions}{block:permalinkpage}<div class="caption">{Caption}</div>{/block:permalinkpage}{/block:ifhidecaptions}{/block:Photoset}
+
+{block:Video}{Video-400}{block:ifnothidecaptions}{Caption}{/block:ifnothidecaptions}{block:ifhidecaptions}{block:permalinkpage}<div class="caption">{Caption}</div>{/block:permalinkpage}{/block:ifhidecaptions}{/block:Video}
+ 
+{block:Audio}
+{block:AudioEmbed}{AudioEmbed-400}{/block:AudioEmbed}
+{/block:Audio}
+
+{block:Answer}
+<div class="q">
+<div class="as">{Asker} asked: 
+{Question}</div></div>
+<div class="a">{Answer}</div>
+{/block:Answer}
+
+{block:Date}
+<div id="permalink">
+<a href="{Permalink}" >{TimeAgo}</a>{block:NoteCount}<a href="{Permalink}">(+ {NoteCount})</a>{/block:NoteCount}{block:RebloggedFrom}<a href="{ReblogParentURL}" title="{ReblogParentName}">via</a>{block:ContentSource}<a href="{ReblogRootURL}" title="{ReblogRootName}">source</a>{/block:ContentSource}{/block:RebloggedFrom}
+{block:HasTags}<div class="tags">{block:Tags}<a href="{TagUrl}">#{Tag}</a>{/block:Tags}</div>{/block:HasTags}
+</div>
+{/block:Date}
+</div> 
+
+{block:PostNotes}
+<div class="pagenotes">
+{PostNotes}
+</div>
+{/block:PostNotes}
+
+
+{/block:Posts}
+
+<div id="pagination">
+{block:Pagination}
+{block:PreviousPage}
+<a href="{PreviousPage}">&larr; previous&nbsp;&nbsp;&nbsp;</a>
+{/block:PreviousPage}
+
+{block:NextPage}
+<a href="{NextPage}">next &rarr;</a>
+{/block:NextPage}
+{/block:Pagination}
+</div>
+</div>
+</div>
+
+{block:ContentSource}
+<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
+width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
+{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
+
+</body>
+</html>

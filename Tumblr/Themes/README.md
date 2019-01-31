@@ -1,6 +1,6 @@
 # Tumblr Themes
 
-I've migrated my themes from Pastebin to here. 
+I'm slowly migrating my themes from Pastebin to here. 
 
 ~~Purely because it doesn't allow unlimited unlisted pastes anymore~~
 

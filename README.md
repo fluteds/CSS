@@ -4,7 +4,7 @@
 
 ##### Terms and Conditions (more like rules.)
 
-- Most of my code is for use with [Discord](https://discordapp.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 
+- Most of my code is for use with [Discord](https://discordapp.com), [Tumblr](https://tumblr.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 
 
 - Any code/file listed as Personal etc in the folder's readme.md and inside the code Is **NOT** available for redistribution and will probably be unfinished/bugged. 
 

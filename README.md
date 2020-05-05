@@ -1,10 +1,10 @@
 # **CSS Files**
 
-#### Copyright 2018
+#### Copyright 2018-2020
 
 ##### Terms and Conditions (more like rules.)
 
-- Most of my code is for use with [Discord](https://discordapp.com), [Tumblr](https://tumblr.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 
+- Most of my code is for use with [Discord](https://discord.com), [Tumblr](https://tumblr.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 
 
 - Any code/file listed as Personal etc in the folder's readme.md and inside the code Is **NOT** available for redistribution and will probably be unfinished/bugged. 
 
@@ -25,7 +25,7 @@ A full version can be found under the document license.md in this repo.
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-   Copyright [2018] Alice (Fluteds)
+   Copyright [2018] Fluteds
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

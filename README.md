@@ -1,19 +1,14 @@
 # **CSS Files**
 
-#### Copyright 2018-2020
+#### Copyright 2018-2021
 
-##### Terms and Conditions (more like rules.)
+##### About this repo
 
 - Most of my code is for use with [Discord](https://discord.com), [Tumblr](https://tumblr.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 
 
-- Note: Most of these files are either slightly broken or completely broken, most of these are here due to pastebin's new limited uploading.
-
-- Any code/file listed as Personal etc in the folder's readme.md and inside the code Is **NOT** available for redistribution and will probably be unfinished/bugged. 
+- Note: Most of these files are either slightly broken or completely broken. Most of these files are here due to pastebin's new limited uploading.
 
 - Under **no circumstances** may you redistribute under any other name or edit my work without permission. If you do want to work on them, that's great! Just please let me know! 
-
-Any unusual happenings, more like **bugs**, are to be reported in the **Issues** section of this repo, thank you! :) 
-
 
 ##### Legal Stuff:
 

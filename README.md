@@ -2,6 +2,9 @@
 
 #### Copyright 2018-2021
 
+![Last Commit](https://img.shields.io/github/last-commit/fluteds/css?style=flat-square)
+![Licence](https://img.shields.io/aur/license/android-studio?style=flat-square)
+
 ##### About this repo
 
 - Most of my code is for use with [Discord](https://discord.com), [Tumblr](https://tumblr.com), [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp) and [plug.dj](https://plug.dj). This will be stated in the readme.md and by designated folder. 

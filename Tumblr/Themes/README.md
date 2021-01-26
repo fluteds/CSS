@@ -10,6 +10,8 @@ I'm slowly migrating my themes from Pastebin to here.
 
 * I do not help with customising any theme, but if there is a technical issue send me a message on Tumblr or leave an issue. 
 
+<img alt="Tumblr" src="https://img.shields.io/badge/Fluted%20-%2336465D.svg?&style=for-the-badge&logo=Tumblr&logoColor=white"/>
+
 
 # Previews
 

@@ -1,19 +1,25 @@
-# Tumblr Themes
+# 💻 Tumblr Themes
+
+**❓ About This Folder:**
 
 I'm slowly migrating my themes from Pastebin to here. 
-
-~~Purely because it doesn't allow unlimited unlisted pastes anymore~~
-
-**About This Folder:**
-
+<br> ~~Purely because it doesn't allow unlimited unlisted pastes anymore~~
 * Under no circumstances may you redistribute under any other name or edit my work without permission. If you do want to work on them, that's great! Just please let me know!
 
-* I do not help with customising any theme, but if there is a technical issue send me a message on Tumblr or leave an issue. 
+* I do not help with customising any theme as I rarely use Tumblr now, but if there is a technical issue please [leave an issue](https://github.com/fluteds/CSS/issues) on this repo.
 
-<img alt="Tumblr" src="https://img.shields.io/badge/Fluted%20-%2336465D.svg?&style=for-the-badge&logo=Tumblr&logoColor=white"/>
+**📝 Table of Contents:** 
 
+- [Theme #3](#theme-#3)
+- [Theme #4](#theme-#4)
+- [Theme #5](#theme-#5)
+- [Theme #6](#theme-#6)
+- [Theme #7](#theme-#7)
+- [Theme #8](#theme-#8)
+- [Theme #9](#theme-#9)
+- [Theme #10](#theme-#10)
 
-# Previews
+# 📽️ Previews
 
 ### Theme #3
 

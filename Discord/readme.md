@@ -5,7 +5,7 @@ I use most of these for my own personal use.
 
 - [Nightblue](#nightblue) - Theme
 - [Rainbow Mentions](#rainbow-mentions) - Addon
-- [Nordblue](#nordblue) - Theme
+- [Bluenord](#bluenord) - Theme
 ### ✨ Nightblue Theme
 > Easy on the eyes. Switched emoji placement around.
 

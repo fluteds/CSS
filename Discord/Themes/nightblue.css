@@ -261,7 +261,7 @@ body {
 }
 
 
-/* Color scheme 
+/* Color scheme
  * https://github.com/ayu-theme/ayu-colors
  * ---------- */
 
@@ -293,7 +293,7 @@ body {
     --selection: rgba(51, 65, 94, .99);
 } */
 
- :root {
+:root {
     --accent-color: #ffcc66;
     --accent-darker: #e6b450;
     --background-primary: #2e3440;

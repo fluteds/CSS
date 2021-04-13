@@ -2,7 +2,7 @@
 
 I use most of these for my own personal use.
 
-**📋 Table of Contents**
+### 📋 Table of Contents
 
 - [Nightblue](#nightblue-theme) - Theme
 - [Rainbow Mentions](#rainbow-mentions) - Addon

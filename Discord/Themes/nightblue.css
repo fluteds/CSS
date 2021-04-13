@@ -1,4 +1,12 @@
-//META{"name":"Nightblue","description":"A nord theme for Discord","author":"Fluteds","version":"2.0"}*//{}
+/**
+ * @name Nightblue
+ * @author Fluted#0001
+ * @version 2.1
+ * @description A nord theme for Discord
+ * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/nightblue.css
+*/
+
+//META{"name":"Nightblue","description":"A nord theme for Discord","author":"Fluteds","version":"2.1"}*//{}
 
 /*
 html {
@@ -19,7 +27,7 @@ body {
 	font-size: 0.8rem;
 }
 
- /*
+/*
 :root {
     --pad-content: 295px;
     --pad-content-u: 280px;

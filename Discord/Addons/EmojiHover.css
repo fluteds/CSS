@@ -1,0 +1,16 @@
+/* zoom small emojis on hover *
+ * ------------------- */
+
+.messageContent-2qWWxC .emoji:not(.jumboable) {
+    transition: transform .1s;
+}
+
+.messageContent-2qWWxC .emoji:not(.jumboable):hover {
+    transform: scale(3.0);
+    z-index: 3;
+}
+
+.contents-2mQqc9,
+.zalgo-jN1Ica .messageContent-2qWWxC {
+    overflow: visible;
+}

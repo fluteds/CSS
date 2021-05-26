@@ -8,6 +8,8 @@ I use most of these for my own personal use. Each theme is usable with BetterDis
   - [Table of Contents](#table-of-contents)
   - [Addons](#addons)
     - [Rainbow Mentions](#rainbow-mentions)
+    - [Emoji Hover](#emoji-hover)
+    - [Reorder](#reorder)
   - [Themes](#themes)
     - [Nightblue Theme](#nightblue-theme)
     - [Bluenord Theme](#bluenord-theme)
@@ -22,6 +24,18 @@ Styles sections of Discord e.g. Mentions etc.
 Makes the mention highlight colour slowly change to different colours.
 
 ![Rainbow Mention](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/rainbowmention.gif)
+
+### Emoji Hover
+
+Enlarges the emoji preview when hovering over it.
+
+![Emoji Hover](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/emojihover.gif)
+
+### Reorder
+
+Reorders the placement of the upload media, gif and emoji buttons to the left hand side of the text box.
+
+![Reorder]](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/reorder.PNG)
 
 ## Themes
 
@@ -43,4 +57,4 @@ Easy on the eyes, a revamped version of Nightblue.
 
 Reverts Discord's 2021 rebrand styling.
 
-![Revert Redesign]()
+![Revert Redesign](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/revert.PNG)

@@ -35,7 +35,7 @@ Enlarges the emoji preview when hovering over it.
 
 Reorders the placement of the upload media, gif and emoji buttons to the left hand side of the text box.
 
-![Reorder]](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/reorder.PNG)
+![Reorder](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/reorder.PNG)
 
 ## Themes
 

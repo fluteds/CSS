@@ -1,6 +1,6 @@
 # Discord
 
-I use most of these for my own personal use. Each theme is usable with BetterDiscord or a custom CSS enabler (if you use webclient.)
+Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDiscord, BeautifulDiscord)
 
 ## Table of Contents
 

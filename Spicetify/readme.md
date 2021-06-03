@@ -10,3 +10,4 @@ Themes for Spicetify, the css injecter for Spotify.
 
 ## Themes
 
+![Nord](https://github.com/fluteds/CSS/blob/master/Spicetify/Screenshots/image.png)

@@ -1,10 +1,10 @@
-# **CSS**
+# CSS
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://GitHub.com/fluteds/css/graphs/commit-activity)
 
 ### About
 
-Most of my code is for use with [Discord](https://discord.com), [Tumblr](https://tumblr.com) and [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp). 
+Most of my code is for use with [Discord](https://discord.com), [Spicetify](https://github.com/khanhas/spicetify-cli), [Tumblr](https://tumblr.com) and [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp). 
 
 Information for each platform will be stated in the readme and by designated folder.
 

@@ -1,10 +1,10 @@
 /**
  * @name Nightblue
  * @author Fluted#0001
- * @version 2.1
- * @description A nord theme for Discord.
- * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/nightblue.css
- * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/nightblue.css
+ * @version 2.2
+ * @description A alternative nord theme for Discord (taken from bluenord)
+ * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/nightblue.theme.css
+ * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/nightblue.theme.css
 */
 
 /*
@@ -34,7 +34,8 @@ body {
 }
 
 */
-/* reorder items in text box */
+
+/* reorder items in text box to the left */
 
 .textAreaSlate-1ZzRVj {
     order: 2;
@@ -266,7 +267,7 @@ body {
  * ---------- */
 
 
-/* AYU
+/* AYU COLORS
 :root {
     --accent-color: #ffcc66;
     --accent-darker: #e6b450;
@@ -399,7 +400,7 @@ body {
 }
 
 
-/* Force BetterDiscord *active* settings items to match normal active settings items. */
+/* force BetterDiscord *active* settings items to match normal active settings items. */
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
 .theme-dark .da-autocompleteRow .da-selectorSelected {
@@ -489,7 +490,7 @@ body {
 }
 
 
-/* recolor discord blurple */
+/* recolor discord ogblurple */
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -542,4 +543,5 @@ div[style*="color: rgb(255, 255, 255);"] {
     display: none
 }
 
+/* import nord syntax highlighting for code blocks */
 @import url("https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css");

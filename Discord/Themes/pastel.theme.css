@@ -1,0 +1,189 @@
+/**
+ * @name Pastel
+ * @author Fluted#0001
+ * @version 1.0
+ * @description Soft pastel theme for Discord
+ * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/pastel.theme.theme.css
+ * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/nightblue.theme.theme.css
+*/
+
+.theme-light [class*="channels"], .theme-light [class*="guildsWrapper"] {
+    background-color: #f9f5f4;
+    background-color: #f5eded;
+}
+
+.theme-light [class*="searchBar-"] {
+    background-color: #f9f5f4;
+    box-shadow: none;
+}
+
+.theme-light [class*="searchBarInner-"] {
+    background-color: #e4bcbf;
+    border: none;
+    color: white;
+}
+
+.theme-light [class*="guildInner-"], .theme-light [class*="guildsAdd-"] {
+    background-color: #e6c2c5 !important;
+    border-color: #e4bcbf;
+    color: white;
+}
+
+.theme-light [class*="iconForeground-"], .theme-light [class*="linkButtonIcon-"], .theme-light [class*="button-"] {
+    color: #e6c2c5;
+}
+.theme-light [class*="status-"] {
+    border-color: #F5EDED;
+}
+
+.theme-light [class*="channel-"]:hover a, .theme-light [class*="textArea-"], .theme-light [class*="inner-"], .theme-light [class*="channels-"] > [class*="container-"]  {
+    background-color: #F5EDED;
+}
+.theme-light [class*="HoveredText"] > [class*="content"],
+.theme-light [class*="HoveredVoice"] > [class*="content"]{
+        background-color: #e6c2c566;
+}
+.theme-light [class*="HoveredText"] *,
+.theme-light [class*="HoveredVoice"] *{
+    color: #6f5573aa;
+}
+
+.theme-light [class*="downloadAppButton"], .theme-light [class*="guildSeparator-"] {
+    display: none;
+}
+
+.theme-light [class*="topPill-"] [class*="itemSelected-"], [class*="app-"] > div[style*="position"], [class*="app-"] > [class*="fixClipping-"] {
+    background-color: #e4bcbf;
+}
+
+.theme-light [class*="channels-"] > [class*="container-"]:last-child, .theme-light [class*="channel-"][class*="selected-"] a, .theme-light [class*="channelNotice-"], .theme-light [class*="contentSelectedText"], .theme-light [class*="channels"] [class*="header-"] {
+    background-color: #e4bcbf;
+    box-shadow: none;
+}
+
+.theme-light [class*="channel-"][class*="selected-"] [class*="linkButtonIcon-"],
+.theme-light [class*="mobileIndicator-"],
+.theme-light [class*="horizontal-"] > [class*="lookBlank-"] {
+    color: white;
+}
+
+.theme-light [class*="attachButtonPlus-"] {
+    fill: #e4bcbf;
+    color: #e4bcbf;
+}
+
+.theme-light [class*="layer-"]>[class*="container-"] {
+    background: white;
+}
+
+.theme-light [class*="spriteNormal-"] {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.theme-light [class*="nameDefaultText"], .theme-light [class*="nameDefaultVoice"], .theme-light [class*="nameLockedText"], .theme-light [class*="nameLockedVoice"] {
+    color: #c7b8be;
+    color: #6f557388;
+}
+
+.theme-light [class*="nameUnreadText"] {
+    color: #4a4543;
+}
+
+.theme-light [class*="nameMutedText"], .theme-light [class*="nameMutedVoice"] {
+    color: #6f557344;
+}
+
+.theme-light [class*="guild-"] [class*="guildInner-"] {
+    border-radius: 50% !important;
+    opacity: .36;
+    transition: .35s ease-out all;
+}
+.theme-light [class*="guild-"] [class*="guildInner-"]:hover {
+    opacity: .8;
+    transition: .25s ease-out all;
+}
+
+.theme-light [class*="dms-"] [class*="guild-"] [class*="guildInner-"] {
+    opacity: 1;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #b4addf;
+    background-color: transparent;
+}
+.theme-light [class*="dms-"] [class*="guild-"] [class*="guildInner-"] * {
+    opacity: .8;
+    background-color: transparent;
+    transition: .35s ease-out all;
+}
+.theme-light [class*="dms-"] [class*="guild-"] [class*="guildInner-"]:hover * {
+    opacity: 1;
+    transition: .1s ease-out all;
+}
+
+.theme-light [class*="guild-"][class*="selected"] [class*="guildInner-"] {
+    box-shadow: 0 0 0 4px #e4bcbf;
+    opacity: 1;
+    transition: .15s ease-out all;
+}
+.theme-light [class*="guild-"][class*="guildIcon-"] {
+    border-radius: 50%;
+}
+.theme-light [class*="guild-"][class*="unread-"]::before {
+    background-color: #cfc9f4;
+}
+.theme-light [class*="guild-"][class*="selected-"]::before {
+    background-color: #ddbac5;
+}
+
+/* buttons and actions */
+.theme-light [class*="tabBar-"] [class*="primary-"],
+.theme-light button[class*="lookFilled-"] {
+    background-color: #87b6b6 !important;
+    color: #fff;
+}
+.theme-light [class*="textArea-"] {
+    color: #6f5573aa;
+}
+.theme-light [class*="textArea-"]::placeholder {
+    color: #ddbac5ee;
+}
+
+/* channel selector */
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="icon-"] {
+    color: #dd698c !important;
+    opacity: .4;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Voice"] [class*="icon-"] {
+/*    color: #6f5573 !important;*/
+    opacity: .7;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Muted"] [class*="icon-"] {
+    color: #6f5573 !important;
+    opacity: .25;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Unread"] [class*="icon-"] {
+    opacity: .8;
+    color: #6f5573 !important;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Selected"] [class*="icon-"] {
+    opacity: .6;
+    color: #fff !important;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Hovered"] [class*="icon-"] {
+    opacity: .8;
+}
+
+
+/**
+ * alert/notificaiton/badge colors
+*/
+
+/* unread mentions bar notifiying to scroll down to see more channels with mentions */
+.theme-light [class*="unreadBottom-"] [class*="unread-"][class*="bar-"],
+.theme-light [class*="unreadMentionsBar-"],
+.theme-light [class*="newMessagesBar-"],
+/* mention badge on channel names */
+.theme-light [class*="iconSpacing-"] [class*="wrapper-"],
+/* mention badge on build/team icons and maybe other stuff? */
+.theme-light [class*="badge-"] {
+    background-color: #979fd4 !important;
+}

@@ -4,9 +4,9 @@
 <!-----
 
 	               			jupiter theme #7 by fluted										        made by fluted.tumblr.com
-					do not copy or redistribute									    	if there are technical errors 
+					do not copy or redistribute									    	if there are technical errors
 					send me a message
- 
+
 ----->
 
 <meta charset="utf-8">
@@ -14,9 +14,9 @@
 {block:ifdesc}
 <meta name="description" content="{MetaDescription}" />
 {/block:ifdesc}
-    
+
 <title>{Title}</title>
-        
+
 <link rel="shortcut icon" href="{image:favicon}">
 <link rel="alternate" type="application/rss+xml" href="{RSS}">
 <link rel="stylesheet" href="http://static.tumblr.com/qxrkgx6/RWPmgn2qa/normalize.min.css">
@@ -35,7 +35,7 @@
 <meta name="color:blockquote border" content="">
 <meta name="color:scrollbar bg" content="">
 <meta name="color:scrollbar track" content="">
-<meta name="color:scrollbar" content=""> 
+<meta name="color:scrollbar" content="">
 <meta name="color:drop shadow" content="">
 
 
@@ -108,63 +108,63 @@ general text styles, fonts and colours
                 opacity: .4;
 	            filter: alpha(opacity=40);
 	            -moz-opacity: 0.4;
-	            -khtml-opacity: 0.4; 
+	            -khtml-opacity: 0.4;
                 transition: opacity .7s ease-in-out;
                 -moz-transition: opacity .7s ease-in-out;
                 -webkit-transition: opacity .7s ease-in-out;
             }
-            
+
             .playerbuttonbg:hover {
                 opacity: 1;
 	            filter: alpha(opacity=100);
 	            -moz-opacity: 1;
-	            -khtml-opacity: 1; 
+	            -khtml-opacity: 1;
             }
-        
+
             .newplayerbutton {
                 position: relative;
                 width: 19px;
                 height: 19px;
                 overflow: hidden;
             }
-            
+
             .playerbuttonhug {
                 position: absolute;
                 top: 0px;
                 left: 0px;
             }
-        
+
             .tumblr_audio_player {
                 height: 90px;
                 width: 270px;
-                -moz-transform: scale(0.60, 0.60); 
-                -webkit-transform: scale(0.60, 0.60); 
+                -moz-transform: scale(0.60, 0.60);
+                -webkit-transform: scale(0.60, 0.60);
                 -o-transform: scale(0.60, 0.60);
                 -ms-transform: scale(0.60, 0.60);
-                transform: scale(0.60, 0.60); 
+                transform: scale(0.60, 0.60);
                 -moz-transform-origin: top left;
                 -webkit-transform-origin: top left;
                 -o-transform-origin: top left;
                 -ms-transform-origin: top left;
                 transform-origin: top left;
             }
-            
+
             .audioimgwrapper {
                 position: absolute;
                 left: 0px;
                 top: 0px;
-             
+
                 overflow: hidden;
                 width: 79px;
                 height: 79px;
             }
-            
+
             .audioimgwrapper img {
                 width: 100%;
                 height: auto;
-                          
+
             }
-            
+
             .trackdetails {
                 width: auto;
                 border: 0px solid black;
@@ -172,7 +172,7 @@ general text styles, fonts and colours
                 margin-left: 90px;
                 min-height: 85px;
             }
-            
+
             .audiowrapper {
                 position: relative;
                 display:inline-block;
@@ -183,17 +183,17 @@ general text styles, fonts and colours
     position: relative;
 }
 
-#s-m-t-tooltip { 
+#s-m-t-tooltip {
     background: rgba(255,255,255,.9);
     max-width: 200px;
-    margin: 15px 20px; 
-    padding: 10px; 
+    margin: 15px 20px;
+    padding: 10px;
     font-size: {select:font size};
     font-family: {select:font};
     color: {color:links};
-    letter-spacing: 1px; 
-    z-index: 99999; 
-} 
+    letter-spacing: 1px;
+    z-index: 99999;
+}
 
 
 ::-webkit-scrollbar {
@@ -201,10 +201,10 @@ general text styles, fonts and colours
     height:17px;}
 ::-webkit-scrollbar-track {
     border:8px solid {color:scrollbar bg};
-    background:{color:Scrollbar Track};} 
-::-webkit-scrollbar-thumb:vertical{ 
+    background:{color:Scrollbar Track};}
+::-webkit-scrollbar-thumb:vertical{
 border:8px solid {color:Scrollbar bg};
-background:{color:Scrollbar};} 
+background:{color:Scrollbar};}
 
 ::-moz-selection {background:none; color:{color:selection};}
 ::selection {background:none; color:{color:selection};}
@@ -236,7 +236,7 @@ margin:0 0 10px 0;
 padding:0;
 }
 
-pre { 
+pre {
 white-space: pre-wrap;
 white-space: -moz-pre-wrap;
 white-space: -pre-wrap;
@@ -312,7 +312,7 @@ text-align:center;
     font-size:13.5px;
     bottom:1px;
     right:5px;
-    
+
 }
 
 #content{
@@ -328,7 +328,7 @@ overflow:hidden;
 }
 
 .links{
-    
+
     text-align:center;
     font-family:{select:font};
 }
@@ -345,7 +345,7 @@ font-size:{select: font size};
 }
 
 
-/* 
+/*
 content in the body of the posts - quotes, asks, etc
 "media" contains photos, photosets, videos, audio posts
 */
@@ -420,7 +420,7 @@ margin:0px;
 }
 .like-b .liked + .b:after {
    content:'';
-    
+
 }
 svg path {
     fill:rgb(132,132,132);
@@ -448,8 +448,8 @@ svg path {
 .tmblr-iframe.tmblr-iframe--desktop-logged-in-controls:hover {
     opacity:.5!important;
 }
- 
- 
+
+
 </style>
 </head>
 
@@ -482,11 +482,11 @@ svg path {
  {block:iflinks}
 <div class="links">
     <a href="{text:link 1 url}">{text:link 1 title}</a>
-    &nbsp; 
+    &nbsp;
     <a href="{text:link 2 url}">{text:link 2 title}</a>
-    &nbsp; 
+    &nbsp;
     <a href="{text:link 3 url}">{text:link 3 title}</a>
-    &nbsp; 
+    &nbsp;
 </div>
 {/block:iflinks}
 
@@ -583,29 +583,29 @@ border: 0px solid;
         {block:albumart}
             <div class="audioimgwrapper"><img src="{albumarturl}"></div>
         {/block:albumart}
-        
+
         <div class="playerbuttonbg">
             <div class="newplayerbutton">
                 <div class="playerbuttonhug">
-            
+
                     {audioplayerwhite}
-            
+
                 </div>
             </div>
         </div>
-        
+
         <div class="trackdetails">
-            
+
                 {block:trackname}{trackname}{/block:trackname}<br/>
                 {block:artist}artist: {artist}{/block:artist}<br/>
                 {block:album}album: {album}{/block:album}<br/>
-                
-    
+
+
         </div>
         </div>
         {block:caption}{caption}{/block:caption}
         {/block:audioplayer}
-                
+
 {block:Answer}
 <div class="question id="{PostID}"">{Asker}: {Question}</div>
 <div class="caption" id="{PostID}">{Answer}</div>
@@ -645,7 +645,7 @@ border: 0px solid;
 {block:Pagination}
 <div id="nav">
 {block:PreviousPage}<a href="{PreviousPage}">PREVIOUS</a>{/block:PreviousPage}
- 
+
 {block:NextPage}<a href="{NextPage}">NEXT</a>{/block:NextPage}
 </div>
 </div>
@@ -663,6 +663,6 @@ border: 0px solid;
     </body>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        
+
     </body>
 </html>

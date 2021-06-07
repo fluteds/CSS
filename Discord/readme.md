@@ -13,7 +13,8 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
   - [Themes](#themes)
     - [Nightblue Theme](#nightblue-theme)
     - [Bluenord Theme](#bluenord-theme)
-    - [Revert Redesign Theme](#revert-redesign-theme)
+    - [Pastel Theme](#pastel-theme)
+    - [GruvBox Theme](#gruvbox-theme)
 
 ## Addons
 
@@ -43,7 +44,7 @@ Styles the entirety of Discord.
 
 ### Nightblue Theme
 
-Easy on the eyes. Switched emoji placement around.
+Easy on the eyes. Inspired by the Nord palette.
 
 ![Night Blue](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/nightblue.PNG)
 
@@ -53,8 +54,14 @@ Easy on the eyes, a revamped version of Nightblue.
 
 ![Blue Nord](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/bluenord.PNG)
 
-### Revert Redesign Theme
+### Pastel Theme
 
-Reverts Discord's 2021 rebrand styling.
+Soft coloured pastel theme.
 
-![Revert Redesign](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/revert.PNG)
+![Pastel](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/pastel.PNG)
+
+### GruvBox Theme
+
+Theme inspired by Gruvbox palette.
+
+![Gruv Box](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/gruvbox.PNG)

@@ -2,12 +2,12 @@
  * @name Bluenord
  * @author Fluted#0001
  * @version 1
- * @description Another nord theme for Discord inspired by the Nord palette.
- * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/bluenord.css
- * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/bluenord.css
+ * @description Another nord theme for Discord inspired by the Nord palette
+ * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/bluenord.theme.css
+ * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/bluenord.theme.css
 */
 
-/* define colors */
+/* define root colours */
 :root {
     --background-primary: #2e3440;
     --background-secondary: #323846;
@@ -30,7 +30,7 @@
     --selection: #5c688080;
 }
 
-/* main backgrounds */
+/* main backgrounds (colour) */
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
 .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
@@ -165,7 +165,7 @@
     display: none;
 }
 
-/* hide blocked messages */
+/* hide blocked messages from chat */
 [class="groupStart-23k01U"] {
     display: none;
 }
@@ -175,18 +175,15 @@
     color: var(--channels-default)
 }
 
-/* reorder items in text box to the left */
-
+/* reorder items in message box to the left */
 .textAreaSlate-1ZzRVj {
     order: 2;
     margin-left: 20px;
 }
-
 .webkit-HjD9Er .buttons-3JBrkn {
     margin-left: -10px;
     order: 1;
 }
-
 .drawerSizingWrapper-17Mss4 {
     right: unset;
     height: 600px;
@@ -202,7 +199,6 @@
 
 /* zoom small emojis on hover *
  * ------------------- */
-
 .messageContent-2qWWxC .emoji:not(.jumboable) {
     transition: transform .1s;
 }

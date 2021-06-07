@@ -15,6 +15,7 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
     - [Bluenord Theme](#bluenord-theme)
     - [Pastel Theme](#pastel-theme)
     - [GruvBox Theme](#gruvbox-theme)
+    - [Aurora Theme](#aurora-theme)
 
 ## Addons
 
@@ -65,3 +66,9 @@ Soft coloured pastel theme.
 Theme inspired by Gruvbox palette.
 
 ![Gruv Box](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/gruvbox.PNG)
+
+### Aurora Theme
+
+Inspired by the Aurora palette and is really bright.
+
+![Aurora](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/aurora.PNG)

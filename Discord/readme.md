@@ -57,7 +57,7 @@ Easy on the eyes, a revamped version of Nightblue.
 
 ### Pastel Theme
 
-Soft coloured pastel theme.
+Soft coloured pastel theme that is brighter than light mode.
 
 ![Pastel](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/pastel.PNG)
 
@@ -69,6 +69,6 @@ Theme inspired by Gruvbox palette.
 
 ### Aurora Theme
 
-Inspired by the Aurora palette and is really bright.
+Inspired by the Aurora palette and is really bright, too bright in fact.
 
 ![Aurora](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/aurora.PNG)

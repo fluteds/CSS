@@ -6,14 +6,14 @@
 
 Most of my code is for use with [Discord](https://discord.com), [Spicetify](https://github.com/khanhas/spicetify-cli), [Tumblr](https://tumblr.com) and [BetterDiscord](https://github.com/Jiiks/BetterDiscordApp). 
 
-Information for each platform will be stated in the readme and by designated folder.
+Information for each platform will be stated in the `readme` and by designated folder.
 
 **Please note**
 
 - Most of these files are either slightly broken or completely broken. 
-- All of these files are here due to Pastebin's new limited uploading.
-- This repo also counts as my CSS/HTML portfolio due to the fact I can no longer host unlimited hidden pastes on Pastebin.
-- Under **no circumstances** may you redistribute under any other name. 
+- All of these files are here due to Pastebin's new limited unlisted uploading.
+- This repo also counts as my CSS/HTML portfolio.
+- Under no circumstances may you redistribute under any other name. 
 - If you do want to work on these, that's great! Just please let me know! 
 - Open as many pull requests or issues as you'd like.
 

@@ -21,6 +21,8 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
 
 Styles sections of Discord e.g. Mentions etc.
 
+Addons can be put into the Custom CSS feature or placed into your theme folder to add them to your theme page.
+
 ### Rainbow Mentions
 
 Makes the mention highlight colour slowly change to different colours.
@@ -42,6 +44,8 @@ Reorders the placement of the upload media, gif and emoji buttons to the left ha
 ## Themes
 
 Styles the entirety of Discord.
+
+Place the `theme.css` file into your theme folder to add them to your theme page.
 
 ### Nightblue Theme
 

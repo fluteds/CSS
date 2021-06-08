@@ -1,7 +1,7 @@
 /**
  * @name Pastel
  * @author Fluted#0001
- * @version 1.1
+ * @version 1.2
  * @description Soft pastel theme (Use with light mode enabled)
  * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/pastel.theme.css
  * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/nightblue.theme.css
@@ -173,11 +173,10 @@
 }
 
 
-/**
- * alert/notificaiton/badge colors
-*/
+/* alert/notificaiton/badge colours */
+/* unread mentions bar notifiying to scroll down 
+to see more channels with mentions */
 
-/* unread mentions bar notifiying to scroll down to see more channels with mentions */
 .theme-light [class*="unreadBottom-"] [class*="unread-"][class*="bar-"],
 .theme-light [class*="unreadMentionsBar-"],
 .theme-light [class*="newMessagesBar-"],

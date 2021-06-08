@@ -1,7 +1,7 @@
 /**
  * @name Aurora
  * @author Fluted#0001
- * @version 1.2
+ * @version 1.3
  * @description Aurora theme, inspired by the Aurora palette
  * @updateUrl https://raw.githubusercontent.com/fluteds/CSS/master/Discord/Themes/aurora.theme.css
  * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/aurora.theme.css
@@ -16,11 +16,11 @@
     --background-accent: #B48EAD;
     --channeltextarea-background: #D08770;
     --text-normal: #ffffff;
-    --text-muted: #999999;
+    --text-muted: #eeeeee;
     --channels-default: #FFFFFF;
     --interactive-normal: #ffffff;
     --interactive-hover: #EBCB8B;
-    --interactive-active: #c2c2c2;
+    --interactive-active: #ffffff;
     --interactive-muted: #A3BE8C;
     --header-secondary: #FFFFFF;
     --background-floating: #B48EAD;

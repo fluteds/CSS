@@ -7,6 +7,12 @@
  * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/aurora.theme.css
 */
 
+/* import aurora syntax highlighting for code blocks */
+@import url("https://raw.githack.com/fluteds/CSS/master/CodeBlocks/auroracodeblock.css");
+
+/* import discolored */
+@import url("https://nyri4.github.io/Discolored/main.css");
+
 /* define root colours */
 :root {
     --background-primary: #BF616A;
@@ -212,6 +218,3 @@
 .zalgo-jN1Ica .messageContent-2qWWxC {
     overflow: visible;
 }
-
-/* import aurora syntax highlighting for code blocks */
-@import url("https://raw.githack.com/fluteds/CSS/master/CodeBlocks/auroracodeblock.css")

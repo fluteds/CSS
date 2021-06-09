@@ -3,7 +3,7 @@
  * @author Fluted#0001
  * @version 1.4
  * @description Aurora theme, inspired by the Aurora palette
- * @updateUrl https://github.com/fluteds/CSS/master/Discord/Themes/aurora.theme.css
+ * @updateUrl https://raw.githack.com/fluteds/CSS/master/Discord/Themes/aurora.theme.css
  * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/aurora.theme.css
 */
 
@@ -214,4 +214,4 @@
 }
 
 /* import aurora syntax highlighting for code blocks */
-@import url("https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css")
+@import url("https://raw.githack.com/fluteds/CSS/master/CodeBlocks/auroracodeblock.css")

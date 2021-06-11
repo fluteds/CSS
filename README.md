@@ -1,6 +1,6 @@
 # CSS
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://GitHub.com/fluteds/css/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat)](https://GitHub.com/fluteds/css/graphs/commit-activity) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fluteds/css?color=green)
 
 ### About
 

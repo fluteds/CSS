@@ -1,4 +1,4 @@
-name: Check for Deadlinks
+name: Links
 
 on:
   repository_dispatch:
@@ -19,3 +19,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated

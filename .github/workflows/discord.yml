@@ -12,4 +12,4 @@ jobs:
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       with:
-        args: ./Discord/Themes/
+        args: ./Discord/Themes/*.*

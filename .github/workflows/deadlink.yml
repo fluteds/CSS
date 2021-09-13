@@ -24,4 +24,4 @@ jobs:
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
-          labels: report, automated
+          labels: report, automated, dead links

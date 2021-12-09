@@ -3,12 +3,10 @@
 I'm slowly migrating my themes from Pastebin to here.
 <br>This contains a range of themes from website themes to dashboard themes.
 
-If you want to use these **please read the following:**
+If you want to use these please read the following:
 
-* Under no circumstances may you redistribute under any other name or edit my work without permission. 
-* If you do want to work on them, that's great! Just please let me know!
-* I do not help with customising any theme as I rarely use Tumblr now.
-* If there is a technical issue please [leave an issue](https://github.com/fluteds/CSS/issues) on this repo.
+* I do not help with customizing any theme as I rarely use Tumblr now.
+* If there is a technical issue please [leave an issue](https://github.com/fluteds/css/issues) on this repo.
 
 ## Previews
 

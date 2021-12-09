@@ -16,6 +16,7 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
     - [Pastel Theme](#pastel-theme)
     - [GruvBox Theme](#gruvbox-theme)
     - [Aurora Theme](#aurora-theme)
+    - [Dracula Theme](#dracula-theme)
 
 ## Addons
 
@@ -76,3 +77,9 @@ Theme inspired by Gruvbox palette.
 Inspired by the Aurora palette and is really bright, too bright in fact.
 
 ![Aurora](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/aurora.PNG)
+
+### Dracula Theme
+
+Inspired by the Dracula pallette.
+
+![Aurora](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/dracula.PNG)

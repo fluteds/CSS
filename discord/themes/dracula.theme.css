@@ -7,6 +7,7 @@
  * @source https://github.com/fluteds/CSS/blob/master/Discord/Themes/dracula.theme.css
 */
 
+/* define root colors */
 :root {
     /* Dracula Colors */
     --dracula-background: #282a36 !important;

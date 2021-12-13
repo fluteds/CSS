@@ -16,10 +16,10 @@ Themes for Spicetify, the css injector for Spotify.
 
 Inspired by the Nord colour scheme
 
-![Nord](https://github.com/fluteds/css/blob/master/Spicetify/Screenshots/nord.png)
+![Nord](https://github.com/fluteds/css/blob/master/spicetify/screenshots/nord.png)
 
 ### Dracula
 
 Inspired by the Dracula colour scheme
 
-![Dracula](https://github.com/fluteds/css/blob/master/Spicetify/Screenshots/dracula.png)
+![Dracula](https://github.com/fluteds/css/blob/master/spicetify/screenshots/dracula.png)

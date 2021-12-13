@@ -23,31 +23,31 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
 
 Styles sections of Discord e.g. Mentions etc.
 
-Addons can be put into the Custom CSS feature or placed into your theme folder to add them to your theme page.
+Addons can be put into the Custom css feature or placed into your theme folder to add them to your theme page.
 
 ### Rainbow Mentions
 
 Makes the mention highlight colour slowly change to different colours.
 
-![Rainbow Mention](https://github.com/fluteds/CSS/blob/master/discord/screenshots/rainbowmention.gif)
+![Rainbow Mention](https://github.com/fluteds/css/blob/master/discord/screenshots/rainbowmention.gif)
 
 ### Emoji Hover
 
 Enlarges the emoji preview when hovering over it.
 
-![Emoji Hover](https://github.com/fluteds/CSS/blob/master/discord/screenshots/emojihover.gif)
+![Emoji Hover](https://github.com/fluteds/css/blob/master/discord/screenshots/emojihover.gif)
 
 ### Reorder
 
 Reorders the placement of the upload media, gif and emoji buttons to the left hand side of the text box.
 
-![Reorder](https://github.com/fluteds/CSS/blob/master/discord/screenshots/reorder.png)
+![Reorder](https://github.com/fluteds/css/blob/master/discord/screenshots/reorder.png)
 
 ### Edit Message Colours
 
 Changes the edit message settings tabs to have different colours.
 
-![Message Settings](https://github.com/fluteds/CSS/blob/master/discord/screenshots/messagecolours.gif)
+![Message Settings](https://github.com/fluteds/css/blob/master/discord/screenshots/messagecolours.gif)
 
 ## Themes
 
@@ -59,34 +59,34 @@ Place the `theme.css` file into your theme folder to add them to your theme page
 
 Easy on the eyes. Inspired by the Nord palette.
 
-![Night Blue](https://github.com/fluteds/CSS/blob/master/discord/screenshots/nightblue.png)
+![Night Blue](https://github.com/fluteds/css/blob/master/discord/screenshots/nightblue.png)
 
 ### Bluenord Theme
 
 Easy on the eyes, a revamped version of Nightblue.
 
-![Blue Nord](https://github.com/fluteds/CSS/blob/master/discord/screenshots/bluenord.png)
+![Blue Nord](https://github.com/fluteds/css/blob/master/discord/screenshots/bluenord.png)
 
 ### Pastel Theme
 
 Soft coloured pastel theme that is brighter than light mode.
 
-![Pastel](https://github.com/fluteds/CSS/blob/master/discord/screenshots/pastel.png)
+![Pastel](https://github.com/fluteds/css/blob/master/discord/screenshots/pastel.png)
 
 ### GruvBox Theme
 
 Theme inspired by Gruvbox palette.
 
-![Gruv Box](https://github.com/fluteds/CSS/blob/master/discord/screenshots/gruvbox.png)
+![Gruv Box](https://github.com/fluteds/css/blob/master/discord/screenshots/gruvbox.png)
 
 ### Aurora Theme
 
 Inspired by the Aurora palette and is really bright, too bright in fact.
 
-![Aurora](https://github.com/fluteds/CSS/blob/master/discord/screenshots/aurora.png)
+![Aurora](https://github.com/fluteds/css/blob/master/discord/screenshots/aurora.png)
 
 ### Dracula Theme
 
 Inspired by the Dracula pallette.
 
-![Aurora](https://github.com/fluteds/CSS/blob/master/discord/screenshots/dracula.png)
+![Aurora](https://github.com/fluteds/css/blob/master/discord/screenshots/dracula.png)

@@ -1,6 +1,6 @@
 # Discord
 
-Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDiscord, BeautifulDiscord)
+Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDiscord, BeautifulDiscord, Powercord)
 
 ## Table of Contents
 
@@ -41,6 +41,12 @@ Enlarges the emoji preview when hovering over it.
 Reorders the placement of the upload media, gif and emoji buttons to the left hand side of the text box.
 
 ![Reorder](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/reorder.PNG)
+
+### Edit Message Colours
+
+Changes the edit message settings tabs to have different colours.
+
+![Message Settings](https://github.com/fluteds/CSS/blob/master/Discord/Screenshots/messagecolours.PNG)
 
 ## Themes
 

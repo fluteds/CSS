@@ -47,7 +47,7 @@ Reorders the placement of the upload media, gif and emoji buttons to the left ha
 
 Changes the edit message settings tabs to have different colours.
 
-![Message Settings](https://github.com/fluteds/CSS/blob/master/discord/screenshots/messagecolours.png)
+![Message Settings](https://github.com/fluteds/CSS/blob/master/discord/screenshots/messagecolours.gif)
 
 ## Themes
 

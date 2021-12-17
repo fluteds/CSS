@@ -1,0 +1,13 @@
+name: Cancel Previous Workflows
+on: [push]
+jobs:
+  cancel_running_workflows:
+    name: 'Cancel Previous Runs'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          all_but_latest: true
+          workflow_id: 10289331 # api: https://api.github.com/repos/fluteds/css/actions/workflows
+          access_token: ${{ github.token }}

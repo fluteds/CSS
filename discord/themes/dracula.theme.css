@@ -1,7 +1,7 @@
 /**
  * @name Dracula
  * @author Fluted#0001
- * @version 1.0
+ * @version 1.1
  * @description Inspired by the Dracula colour scheme 🧛
  * @updateUrl https://raw.githack.com/fluteds/css/master/Discord/Themes/dracula.theme.css
  * @source https://github.com/fluteds/css/blob/master/Discord/Themes/dracula.theme.css
@@ -45,6 +45,21 @@
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
   .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--dracula-comment) !important;
+  }
+
+  /* Search Box */
+  .theme-dark .container-3ayLPN {
+    background: var(--background-tertiary);
+  }
+  
+  .theme-dark .option-96V44q::after {
+    background: linear-gradient(90deg,
+      rgba(54,57,63,0) 0,
+      var(--background-tertiary));
+  }
+  
+  .theme-dark .focused-2bY0OD {
+    background-color: var(--background-secondary);
   }
   
   /* Home */

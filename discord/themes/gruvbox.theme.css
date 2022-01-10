@@ -38,17 +38,17 @@
 .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
 .theme-dark .da-messageGroupWrapper,
 .theme-dark .bodyInner-245q0L,
-.theme-dark .bottomDivider-1K9Gao,
+.theme-dark .bottomDivider-ZmTm-j,
 .theme-dark .headerNormal-T_seeN,
-.theme-dark .root-1gCeng,
-.tabBody-3YRQ8W,
-.theme-dark .container-1D34oG
-.theme-dark .uploadModal-2ifh8j,
-.theme-dark .modal-yWgWj-,
-.uploadModal-2ifh8j,
+.theme-dark .root-g14mjS,
+.tabBody-2dgbAs,
+.theme-dark .container-2cd8Mz
+.theme-dark .uploadModal-2ie9O_,
+.theme-dark .modal-2RrUKJ,
+.uploadModal-2ie9O_,
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
-.theme-dark .selected-1Tbx07,
-.theme-dark .option-96V44q.selected-rZcOL- {
+.theme-dark .selected-3H3-RC,
+.theme-dark .option-2KkUJO.selected-rZcOL- {
     background-color: var(--background-primary) !important;
 }
 
@@ -60,27 +60,27 @@
 .da-footer,
 .da-userPopout>*,
 .da-autocompleteHeaderBackground,
-.theme-dark .bar-2Qqk5Z,
-.theme-dark .payment-xT17Mq,
-.theme-dark .paymentPane-3bwJ6A,
-.theme-dark .paginator-166-09,
-.theme-dark .codeRedemptionRedirect-1wVR4b,
+.theme-dark .bar-1Bhnl9,
+.theme-dark .payment-2bOh4k,
+.theme-dark .paymentPane-ut5qKZ,
+.theme-dark .paginator-1eqD2g,
+.theme-dark .codeRedemptionRedirect-3SBiCp,
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .footer-3mqk7D,
-.theme-dark .footer-2gL1pp,
+.theme-dark .footer-VCsJQY,
+.theme-dark .footer-31IekZ,
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .inset-3sAvek,
+.theme-dark .inset-SbsSFp,
 .theme-dark .quickMessage-1yeL4E,
-.wrapper-2aW0bm,
-.theme-dark .autocomplete-1vrmpx,
-.searchBar-3dMhjb,
+.wrapper-2vIMkT,
+.theme-dark .autocomplete-3NRXG8,
+.searchBar-zdmu7v,
 .theme-dark .body-3iLsc4,
-.theme-dark .footer-2gL1pp,
+.theme-dark .footer-31IekZ,
 .theme-dark .footer-1fjuF6,
-.cardPrimary-1Hv-to,
-.theme-dark .card-FDVird:before,
-.theme-dark .colorPickerCustom-2CWBn2 {
+.cardPrimary-3qRT__,
+.theme-dark .card-2ART2V:before,
+.theme-dark .colorPickerCustom-1swUKF {
     background-color: var(--background-secondary);
 }
 
@@ -104,25 +104,25 @@
 
 .theme-dark .selectorSelected-1_M1WV,
 .newMessagesBar-mujexs,
-.theme-dark .searchAnswer-3Dz2-q,
-.theme-dark .searchFilter-2ESiM3,
-.theme-dark .progress-1IcQ3A,
+.theme-dark .searchAnswer-23w-CH,
+.theme-dark .searchFilter-2UfsDk,
+.theme-dark .progress-1S-TDF,
 .themeDefault-24hCdX,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background-color: var(--background-accent);
 }
 
-.theme-dark .container-3ayLPN {
+.theme-dark .container-2McqkF {
     background-color: var(--background-tertiary);
 }
 
-.theme-dark .option-96V44q.selected-rZcOL- {
+.theme-dark .option-2KkUJO.selected-rZcOL- {
     background-color: var(--background-floating);
 }
 
-.theme-dark .pageIndicator-1gAbyA,
-.theme-dark .pageButtonNext-V2kUq0,
-.theme-dark .pageButtonPrev-1Y-47D {
+.theme-dark .pageIndicator-cOEPV8,
+.theme-dark .pageButtonNext-2_bbdk,
+.theme-dark .pageButtonPrev-3q9rh8 {
     border-color: var(--background-accent);
 }
 
@@ -133,26 +133,26 @@
 }
 
 /* remove gradients */
-.theme-dark .da-option:after, .theme-dark .option-96V44q:after {
+.theme-dark .da-option:after, .theme-dark .option-2KkUJO:after {
     background-image: none !important;
 }
 
 /* search text */
-.theme-dark .searchOption-zQ-1l6 .answer-1n6g43,
-.theme-dark .option-96V44q .filter-3Y_im- {
+.theme-dark .searchOption-351dTI .answer-2fBfuP,
+.theme-dark .option-2KkUJO .filter-5YbOzJ {
     color: var(--text-muted)
 }
 
-.theme-dark .searchOption-zQ-1l6 .filter-3Y_im- {
+.theme-dark .searchOption-351dTI .filter-5YbOzJ {
     color: var(--text-normal)
 }
 
 /* side panel bottom section border */
-.panels-j1Uci_ {
+.panels-3wFtMD {
     border-top: 2px solid var(--background-modifier-accent);
 }
 
-.container-1giJp5 {
+.container-1zzFcN {
     border-width: 2px;
 }
 
@@ -167,23 +167,23 @@
 }
 
 /* hide blocked messages */
-[class="groupStart-23k01U"] {
+[class="groupStart-3Mlgv1"] {
 	display: none;
 }
 
 /* enhanceddiscord server count text */
-.theme-dark .keybind-KpFkfr {
+.theme-dark .keybind-13vtq8 {
     color: var(--channels-default)
 }
 
 /* unloaded emojis */
-.theme-dark .imageLoading-bpSr0M {
+.theme-dark .imageLoading-2uloYN {
     background-image: none;
     background: var(--background-primary);
     border-radius: 50%;
 }
 
-.sprite-2iCowe {
+.sprite-2lxwfc {
 	filter: none !important;
 }
 

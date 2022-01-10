@@ -1,0 +1,8 @@
+{
+    "name": "Aurora",
+    "description": "Aurora theme, inspired by the Aurora palette.",
+    "version": "2.0",
+    "author": "Fluted#0001",
+    "theme": "aurora.theme.css",
+    "license": "MIT"
+}

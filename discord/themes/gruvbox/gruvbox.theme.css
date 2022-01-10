@@ -1,39 +1,37 @@
 /**
- * @name Aurora
+ * @name Gruvbox
  * @author Fluted#0001
- * @version 1.6
- * @description Aurora theme, inspired by the Aurora palette
- * @updateUrl https://raw.githack.com/fluteds/css/master/Discord/Themes/aurora.theme.css
- * @source https://github.com/fluteds/css/blob/master/Discord/Themes/aurora.theme.css
-*/
+ * @version 2.0
+ * @description Inspired by the Gruvbox palette
+ * @updateUrl https://raw.githack.com/fluteds/css/master/discord/themes/gruvbox/gruvbox.theme.css
+ * @source https://github.com/fluteds/css/blob/master/discord/themes/gruvbox/gruvbox.theme.css
+**/
 
-/* import discolored */
-@import url("https://nyri4.github.io/Discolored/main.css");
-
-/* define root colours */
+/* define root colors */
 :root {
-    --background-primary: #BF616A;
-    --background-secondary: #D08770;
-    --background-secondary-alt: #D08770;
-    --background-tertiary: #BF616A;
-    --background-accent: #B48EAD;
-    --channeltextarea-background: #D08770;
-    --text-normal: #ffffff;
-    --text-muted: #ffffff;
-    --channels-default: #FFFFFF;
-    --interactive-normal: #ffffff;
-    --interactive-hover: #EBCB8B;
-    --interactive-active: #ffffff;
-    --interactive-muted: #A3BE8C;
-    --header-secondary: #FFFFFF;
-    --background-floating: #B48EAD;
-    --scrollbar-auto-thumb: #BF616A;
-    --scrollbar-auto-track: #D08770;
-    --text-link: #EBCB8B;
-    --selection: #D08770;
+    --background-primary: #282828;
+    --background-secondary: #3c3836;
+    --background-secondary-alt: #3c3836;
+    --background-tertiary: #504945;
+    --background-accent: #665c54;
+    --channeltextarea-background: #3c3836;
+    --text-normal: #fbf1c7;
+    --text-muted: #a89984;
+    --channels-default: #a89984;
+    --interactive-normal: #d5c4a1;
+    --interactive-hover: #fbf1c7;
+    --interactive-active: #ebdbb2;
+    --interactive-muted: #665c54;
+    --header-primary: #fbf1c7;
+    --header-secondary: #ebdbb2;
+    --background-floating: #3c3836;
+    --scrollbar-auto-thumb: #1d2021;
+    --scrollbar-auto-track: #3c3836;
+    --text-link: #458588;
+    --selection: #92837480;
 }
 
-/* main backgrounds (colour) */
+/* main backgrounds */
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
 .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
@@ -44,7 +42,8 @@
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .root-g14mjS,
 .tabBody-2dgbAs,
-.theme-dark .container-2cd8Mz .theme-dark .uploadModal-2ie9O_,
+.theme-dark .container-2cd8Mz
+.theme-dark .uploadModal-2ie9O_,
 .theme-dark .modal-2RrUKJ,
 .uploadModal-2ie9O_,
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
@@ -89,7 +88,7 @@
 .da-messagesWrapper .da-scroller::-webkit-scrollbar,
 .da-messagesWrapper .da-scroller::-webkit-scrollbar-track-piece {
     background-color: var(--background-tertiary) !important;
-    border-color: rgb(0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .da-scrollerThemed .da-scroller::-webkit-scrollbar-thumb,
@@ -100,7 +99,7 @@
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
     background-color: var(--background-primary) !important;
-    border-color: rgb(0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .theme-dark .selectorSelected-1_M1WV,
@@ -134,8 +133,7 @@
 }
 
 /* remove gradients */
-.theme-dark .da-option:after,
-.theme-dark .option-2KkUJO:after {
+.theme-dark .da-option:after, .theme-dark .option-2KkUJO:after {
     background-image: none !important;
 }
 
@@ -163,34 +161,19 @@
     background: var(--selection);
 }
 
-/* hide nitro gift button */
+/* hide that stupid nitro gift button */
 .button-38aScr[aria-label="Send a gift"] {
     display: none;
 }
 
-/* hide blocked messages from chat */
+/* hide blocked messages */
 [class="groupStart-3Mlgv1"] {
-    display: none;
+	display: none;
 }
 
 /* enhanceddiscord server count text */
 .theme-dark .keybind-13vtq8 {
     color: var(--channels-default)
-}
-
-/* reorder items in message box to the left */
-.textAreaSlate-9-y-k2 {
-    order: 2;
-    margin-left: 20px;
-}
-.webkit-QgSAqd .buttons-uaqb-5 {
-    margin-left: -10px;
-    order: 1;
-}
-.drawerSizingWrapper-1txdWG {
-    right: unset;
-    height: 600px;
-    bottom: 0;
 }
 
 /* unloaded emojis */
@@ -200,18 +183,111 @@
     border-radius: 50%;
 }
 
-/* zoom small emojis on hover *
- * ------------------- */
-.messageContent-2t3eCI .emoji:not(.jumboable) {
-    transition: transform .1s;
+.sprite-2lxwfc {
+	filter: none !important;
 }
 
-.messageContent-2t3eCI .emoji:not(.jumboable):hover {
-    transform: scale(3.0);
-    z-index: 3;
+/* Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox) */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282828;
 }
 
-.contents-2MsGLg,
-.zalgo-26OfGz .messageContent-2t3eCI {
-    overflow: visible;
+.hljs,
+.hljs-subst {
+  color: #ebdbb2;
+}
+
+/* Gruvbox Red */
+.hljs-deletion,
+.hljs-formula,
+.hljs-keyword,
+.hljs-link,
+.hljs-selector-tag {
+  color: #fb4934;
+}
+
+/* Gruvbox Blue */
+.hljs-built_in,
+.hljs-emphasis,
+.hljs-name,
+.hljs-quote,
+.hljs-strong,
+.hljs-title,
+.hljs-variable {
+  color: #83a598;
+}
+
+/* Gruvbox Yellow */
+.hljs-attr,
+.hljs-params,
+.hljs-template-tag,
+.hljs-type {
+  color: #fabd2f;
+}
+
+/* Gruvbox Purple */
+.hljs-builtin-name,
+.hljs-doctag,
+.hljs-literal,
+.hljs-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.hljs-code,
+.hljs-meta,
+.hljs-regexp,
+.hljs-selector-id,
+.hljs-template-variable {
+  color: #fe8019;
+}
+
+/* Gruvbox Green */
+.hljs-addition,
+.hljs-meta-string,
+.hljs-section,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-string,
+.hljs-symbol {
+  color: #b8bb26;
+}
+
+/* Gruvbox Aqua */
+.hljs-attribute,
+.hljs-bullet,
+.hljs-class,
+.hljs-function,
+.hljs-function .hljs-keyword,
+.hljs-meta-keyword,
+.hljs-selector-pseudo,
+.hljs-tag {
+  color: #8ec07c;
+}
+
+/* Gruvbox Gray */
+.hljs-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.hljs-link_label,
+.hljs-literal,
+.hljs-number {
+  color: #d3869b;
+}
+
+.hljs-comment,
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-section,
+.hljs-strong,
+.hljs-tag {
+  font-weight: bold;
 }

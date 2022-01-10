@@ -1,0 +1,8 @@
+{
+    "name": "Nightblue",
+    "description": "A alternative Nord colour theme (a rework of BlueNord.)",
+    "version": "2.0",
+    "author": "Fluted#0001",
+    "theme": "nightblue.theme.css",
+    "license": "MIT"
+}

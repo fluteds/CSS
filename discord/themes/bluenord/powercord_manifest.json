@@ -1,0 +1,8 @@
+{
+    "name": "Bluenord",
+    "description": "Inspired by the Nord pallete, this is a dark blue color scheme.",
+    "version": "2.0",
+    "author": "Fluted#0001",
+    "theme": "bluenord.theme.css",
+    "license": "MIT"
+}

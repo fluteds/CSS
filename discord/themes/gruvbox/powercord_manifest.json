@@ -1,0 +1,8 @@
+{
+    "name": "Gruvbox",
+    "description": "Inspired by the Gruvbox palette.",
+    "version": "2.0",
+    "author": "Fluted#0001",
+    "theme": "gruvbox.theme.css",
+    "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Dracula",
+    "description": "Yet Another Dracula theme for Discord",
+    "version": "2.0",
+    "author": "Fluted#0001",
+    "theme": "dracula.theme.css",
+    "license": "MIT"
+}

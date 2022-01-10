@@ -1,18 +1,18 @@
 /* rainbow mentions */
 
-.theme-dark .mentioned-xhSam7 .mention,
-.theme-light .mentioned-xhSam7 .mention:hover,
-.theme-dark .wrapper-3WhCwL:hover,
-.theme-dark .wrapper-3WhCwL {
+.theme-dark .mentioned-Tre-dv .mention,
+.theme-light .mentioned-Tre-dv .mention:hover,
+.theme-dark .wrapper-1ZcZW-:hover,
+.theme-dark .wrapper-1ZcZW- {
   background: transparent !important;
 }
 
-.theme-dark .mentioned-xhSam7 .mention,
-.theme-light .mentioned-xhSam7 .mention,
-.theme-dark .wrapper-3WhCwL,
-.theme-dark .wrapper-3WhCwL:hover,
-.theme-dark .mentioned-xhSam7,
-.theme-dark .mentioned-xhSam7 {
+.theme-dark .mentioned-Tre-dv .mention,
+.theme-light .mentioned-Tre-dv .mention,
+.theme-dark .wrapper-1ZcZW-,
+.theme-dark .wrapper-1ZcZW-:hover,
+.theme-dark .mentioned-Tre-dv,
+.theme-dark .mentioned-Tre-dv {
   color: #ea1c5b;
   animation: rainbowmention 3s infinite linear;
 }

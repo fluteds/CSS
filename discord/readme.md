@@ -6,11 +6,6 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
 
 - [Discord](#discord)
   - [Table of Contents](#table-of-contents)
-  - [Addons](#addons)
-    - [Rainbow Mentions](#rainbow-mentions)
-    - [Emoji Hover](#emoji-hover)
-    - [Reorder](#reorder)
-    - [Edit Message Colours](#edit-message-colours)
   - [Themes](#themes)
     - [Nightblue Theme](#nightblue-theme)
     - [Bluenord Theme](#bluenord-theme)
@@ -18,36 +13,12 @@ Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDi
     - [GruvBox Theme](#gruvbox-theme)
     - [Aurora Theme](#aurora-theme)
     - [Dracula Theme](#dracula-theme)
-
-## Addons
-
-Styles sections of Discord e.g. Mentions etc.
-
-Addons can be put into the Custom css feature or placed into your theme folder to add them to your theme page.
-
-### Rainbow Mentions
-
-Makes the mention highlight colour slowly change to different colours.
-
-![Rainbow Mention](https://github.com/fluteds/css/blob/master/discord/screenshots/rainbowmention.gif)
-
-### Emoji Hover
-
-Enlarges the emoji preview when hovering over it.
-
-![Emoji Hover](https://github.com/fluteds/css/blob/master/discord/screenshots/emojihover.gif)
-
-### Reorder
-
-Reorders the placement of the upload media, gif and emoji buttons to the left hand side of the text box.
-
-![Reorder](https://github.com/fluteds/css/blob/master/discord/screenshots/reorder.png)
-
-### Edit Message Colours
-
-Changes the edit message settings tabs to have different colours.
-
-![Message Settings](https://github.com/fluteds/css/blob/master/discord/screenshots/messagecolours.gif)
+  - [Addons](#addons)
+    - [Rainbow Mentions](#rainbow-mentions)
+    - [Emoji Hover](#emoji-hover)
+    - [Reorder](#reorder)
+    - [Edit Message Colours](#edit-message-colours)
+    - [Centered User Popout](#centered-user-popout)
 
 ## Themes
 
@@ -90,3 +61,39 @@ Inspired by the Aurora palette and is really bright, too bright in fact.
 Inspired by the Dracula pallette.
 
 ![Aurora](https://github.com/fluteds/css/blob/master/discord/screenshots/dracula.png)
+
+## Addons
+
+Styles sections of Discord e.g. Mentions etc.
+
+Addons can be put into the Custom css feature or placed into your theme folder to add them to your theme page.
+
+### Rainbow Mentions
+
+Makes the mention highlight colour slowly change to different colours.
+
+![Rainbow Mention](https://github.com/fluteds/css/blob/master/discord/screenshots/rainbowmention.gif)
+
+### Emoji Hover
+
+Enlarges the emoji preview when hovering over it.
+
+![Emoji Hover](https://github.com/fluteds/css/blob/master/discord/screenshots/emojihover.gif)
+
+### Reorder
+
+Reorders the placement of the upload media, gif and emoji buttons to the left hand side of the text box.
+
+![Reorder](https://github.com/fluteds/css/blob/master/discord/screenshots/reorder.png)
+
+### Edit Message Colours
+
+Changes the edit message settings tabs to have different colours.
+
+![Message Settings](https://github.com/fluteds/css/blob/master/discord/screenshots/messagecolours.gif)
+
+### Centered User Popout
+
+Centers the user popout information.
+
+![Popout](https://github.com/fluteds/css/blob/master/discord/screenshots/centereduser.png)

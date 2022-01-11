@@ -1,0 +1,27 @@
+/* Centered User Popout */
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7,
+.text-3j8t_e > *,.nameTag-2Nlmsy > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.avatarWrapperNormal-ahVUaC {
+  position: absolute;
+  left: 33%;
+}
+.avatar-3QF_VA {
+  position:absolute;
+  left:30%;
+}
+.avatar-3QF_VA {
+  position:absolute;
+  left:38%;
+}
+.tabBarContainer-sCZC4w, .customStatusText-3wj79x {
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+.userPopout-xaxa6l .input-cIJ7To, .userInfoSection-2u2hir > *, .aboutMeSection-PUghFQ, .customStatus-kFfkj5, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-AtZOdT.size14-e6ZScH{
+  text-align: center;
+}

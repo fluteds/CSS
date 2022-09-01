@@ -30,7 +30,7 @@
   }
   
   .main-playButton-PlayButton.main-playButton-primary {
-    color: white;
+    color: grey;
   }
   
   .connect-title,
@@ -137,7 +137,7 @@
   
   .main-playPauseButton-button {
     background-color: var(--spice-button);
-    color: white;
+    color: grey;
   }
   
   /** Queue page header */

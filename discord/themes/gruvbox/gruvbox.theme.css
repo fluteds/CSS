@@ -108,7 +108,7 @@
 .theme-dark .searchFilter-2UfsDk,
 .theme-dark .progress-1S-TDF,
 .themeDefault-24hCdX,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
     background-color: var(--background-accent);
 }
 
@@ -162,7 +162,7 @@
 }
 
 /* hide that stupid nitro gift button */
-.button-38aScr[aria-label="Send a gift"] {
+.button-f2h6uQ[aria-label="Send a gift"] {
     display: none;
 }
 

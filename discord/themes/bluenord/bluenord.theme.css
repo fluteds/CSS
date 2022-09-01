@@ -1,7 +1,7 @@
 /**
  * @name BlueNord
  * @author Fluted#0001
- * @version 1.2
+ * @version 2.0
  * @description Another Nord coloured theme, inspired by the Nord palette
  * @updateUrl https://raw.githack.com/fluteds/css/master/discord/themes/bluenord/bluenord.theme.css
  * @source https://github.com/fluteds/css/blob/master/discord/themes/bluenord/bluenord.theme.css
@@ -106,7 +106,7 @@
 .theme-dark .searchFilter-2UfsDk,
 .theme-dark .progress-1S-TDF,
 .themeDefault-24hCdX,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
     background-color: var(--background-accent);
 }
 
@@ -161,7 +161,7 @@
 }
 
 /* hide nitro gift button */
-.button-38aScr[aria-label="Send a gift"] {
+.button-f2h6uQ[aria-label="Send a gift"] {
     display: none;
 }
 

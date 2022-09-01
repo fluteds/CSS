@@ -1,7 +1,7 @@
 /**
  * @name Nightblue
  * @author Fluted#0001
- * @version 2.2
+ * @version 2.0
  * @description A alternative Nord colour theme (a rework of BlueNord)
  * @updateUrl https://raw.githack.com/fluteds/css/master/discord/themes/nightblue/nightblue.theme.css
  * @source https://github.com/fluteds/css/blob/master/discord/themes/nightblue/nightblue.theme.css
@@ -433,7 +433,7 @@ body {
 .theme-dark .searchFilter-2UfsDk,
 .theme-dark .progress-1S-TDF,
 .themeDefault-24hCdX,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
     background-color: var(--background-accent);
 }
 
@@ -493,7 +493,7 @@ body {
 /* recolor discord ogblurple */
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
-.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-yCfaCM.colorBrand-I6CyqQ,
 .barFill-2Bh7CX,
 .mentioned-Tre-dv:before {
     background-color: var(--accent-color);
@@ -515,11 +515,11 @@ div[style*="color: rgb(255, 255, 255);"] {
     color: #ffffff !important;
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
     color: white;
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
     background-color: var(--accent-darker);
 }
 
@@ -539,7 +539,7 @@ div[style*="color: rgb(255, 255, 255);"] {
 
 /* disable gift button */
 
-.button-38aScr[aria-label="Send a gift"] {
+.button-f2h6uQ[aria-label="Send a gift"] {
     display: none
 }
 

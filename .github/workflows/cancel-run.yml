@@ -9,5 +9,5 @@ jobs:
       - uses: styfle/cancel-workflow-action@0.9.1
         with:
           all_but_latest: true
-          workflow_id: 10289331 # api: https://api.github.com/repos/fluteds/css/actions/workflows
+          workflow_id: 16143827, 33793458 # api: https://api.github.com/repos/fluteds/css/actions/workflows
           access_token: ${{ github.token }}

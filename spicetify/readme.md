@@ -2,6 +2,9 @@
 
 Themes for Spicetify, the css injector for Spotify.
 
+>[!WARNING]
+>These themes are not reguarly updated and are most likely broken. If there is an issue, open an issue or a PR with fixes if needed.
+
 ## Table of Contents
 
 - [Spicetify](#spicetify)

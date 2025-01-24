@@ -1,12 +1,13 @@
 # Tumblr
 
-I'm slowly migrating my themes from Pastebin to here.
-<br>This contains a range of themes from website themes to dashboard themes.
+This contains a range of themes from website to dashboard themes.
+
+>[!WARNING]
+>These themes are not reguarly updated and are most likely broken. If there is an issue, open an issue or a PR with fixes if needed.
 
 If you want to use these please read the following:
 
 * I do not help with customizing any theme as I rarely use Tumblr now.
-* If there is a technical issue please [leave an issue](https://github.com/fluteds/css/issues) on this repo.
 
 ## Previews
 

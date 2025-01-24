@@ -3,3 +3,4 @@
 .old
 discord/themes/fix-canary-themes.py
 discord/themes/gruvbox/gruvbox2.theme.css
+.DS_Store

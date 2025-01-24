@@ -1,6 +1,9 @@
 # Discord
 
-Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDiscord, BeautifulDiscord, Powercord)
+Each theme is usable with your favourite css injector (BetterDiscord, EnhancedDiscord, BeautifulDiscord, Powercord and Vencord.)
+
+>[!WARNING]
+>These themes are not reguarly updated and are most likely broken. If there is an issue, open an issue or a PR with fixes if needed.
 
 ## Table of Contents
 
